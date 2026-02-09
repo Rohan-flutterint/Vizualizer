@@ -1,0 +1,15 @@
+[package]
+name = "vizualizer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.30"
+egui = "0.30"
+egui_plot = "0.30"
+calamine = "0.24"
+rfd = "0.14"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", default-features = false, features = ["clock", "serde"] }
+anyhow = "1.0"

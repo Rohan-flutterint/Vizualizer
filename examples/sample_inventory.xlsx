@@ -1,0 +1,5 @@
+Item,Stock,Reorder
+Desk,20,FALSE
+Chair,45,FALSE
+Laptop,12,TRUE
+Monitor,30,FALSE
